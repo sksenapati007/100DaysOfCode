@@ -33,7 +33,7 @@ const displayProjects = (projects) => {
 
 // Fetch data from json file
 const projectJsonFile =
-  "https://raw.githubusercontent.com/MdGhulamAzadAnsari/100-Days-of-Code/master/docs/data/projects.json";
+  "https://raw.githubusercontent.com/sksenapati007/100-Days-of-Code/master/docs/data/projects.json";
 
 fetch(projectJsonFile)
   .then((data) => data.json())
