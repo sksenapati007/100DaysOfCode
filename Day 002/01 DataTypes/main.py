@@ -42,9 +42,9 @@ print(add)
 #  OR
 
 two_digit_num = input("Enter a 2 digit number :")
-s_digit = two_digit_num[0]
-f_digit = two_digit_num[1]
+s_digit = int(two_digit_num[0])
+f_digit = int(two_digit_num[1])
 
-result = int(s_digit) + int(f_digit)
+result = s_digit + f_digit
 
 print(result)
