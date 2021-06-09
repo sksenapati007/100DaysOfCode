@@ -48,3 +48,12 @@ f_digit = int(two_digit_num[1])
 result = s_digit + f_digit
 
 print(result)
+
+#  arithmetic operators
+#  PEMDASLR
+# Parantheses ()
+# Exponent **
+# Multiplication *
+# Division /
+# Addition +
+# Subtraction -
