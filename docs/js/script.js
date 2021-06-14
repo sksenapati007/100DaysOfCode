@@ -3,7 +3,7 @@ const getCard = (name, description, link) => {
     newNode.className = "content col-sm-3 col-md-3 col-lg-3";
     newNode.innerHTML = `<a class="card col" href="#!" style="border: 0px; background: none">
     <div class="front" style="background-image: url(images/python_clip.png);">
-        <p class="text-danger display-3">${name}</p>
+        <p class="text-warning display-4 shadow p-3 bg-white rounded">${name}</p>
     </div>
     <div class="back">
         <div>
