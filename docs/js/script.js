@@ -33,7 +33,7 @@ const getCard = (name, description, link) => {
   
   // Fetch data from json file
   const projectJsonFile =
-    "https://raw.githubusercontent.com/sksenapati007/100DaysOfCode/main/logs/data/projects.json";
+    "https://raw.githubusercontent.com/sksenapati007/100DaysOfCode/main/docs/data/projects.json";
   
   fetch(projectJsonFile)
     .then((data) => data.json())
